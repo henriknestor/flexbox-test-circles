@@ -17,6 +17,7 @@ section {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     width: 233px;
     height: 190px;
     padding: 20px;
@@ -42,7 +43,11 @@ section {
 }
 
 .first {
-    flex-wrap: wrap;
     align-content:flex-start;
     gap: 20px;
+}
+
+.second {
+    align-content: center;
+    gap: 41px;
 }
