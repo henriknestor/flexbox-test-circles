@@ -43,11 +43,18 @@ section {
 }
 
 .first {
-    align-content:flex-start;
+    align-content:start;
     gap: 20px;
 }
 
 .second {
-    align-content: center;
+    align-items: center;
     gap: 41px;
+}
+
+.third {
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    align-content: end;
+    gap: 20px;
 }
