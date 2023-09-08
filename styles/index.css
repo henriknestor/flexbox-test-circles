@@ -64,3 +64,8 @@ section {
  justify-content: center;
  gap: 20px;
 }
+
+.fifth {
+    align-content: space-between;
+    gap: 41px;
+}
